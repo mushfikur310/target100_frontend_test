@@ -1,0 +1,7 @@
+apps:
+  - script: yarn start
+    name: "Target100 Frontend test"
+    instances: 1
+    watch: true
+    exec_interpreter: "babel-node"
+    exec_mode: fork
