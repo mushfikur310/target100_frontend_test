@@ -4,7 +4,6 @@ var path = require("path");
 var express = require("express");
 
 let { SERVER_PORT } = process.env;
-console.log("PORT", SERVER_PORT);
 var app = express();
 
 app.use(express.static(path.join(__dirname, "../build")));
